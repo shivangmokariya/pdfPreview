@@ -1,0 +1,43 @@
+.media-upload {
+  text-align: center;
+  margin-top: 20px;
+}
+
+input[type="file"] {
+  margin-bottom: 20px;
+}
+
+img, video {
+  margin-top: 10px;
+  border: 1px solid #ccc;
+}
+
+button {
+  margin-top: 20px;
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.preview-file {
+  width: 600px; /* Fixed width for PDF container */
+  height: 750px; /* Fixed height for PDF container */
+  margin-top: 20px;
+  overflow: hidden; /* Prevent scrolling */
+  text-align: center;
+  border: 1px solid #ccc;
+  background-color: #b65f5f;
+  &&:hover{
+    background-color: #4CAF50;
+  }
+}
+
+.preview-file h3 {
+  margin-bottom: 10px;
+}
